@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*inizio header*/
 .blue{
     background-color: rgb(44,62,80);
     height: 100px;
@@ -11,6 +12,8 @@
     background-color: red;
     height: 50%;
 }
+/*fine header*/
+/*inizio main*/
 .first-row{
     background-color: rgb(26,188,156);
     height: 400px;
@@ -35,3 +38,15 @@
     background-color: yellow;
     height: 80%;
 }
+.third-row{
+   background-color: white; 
+   height: 300px;
+}
+.green{
+    background-color: green;
+    height: 80%;
+}
+/*fine main*/
+/*inizio footer*/
+
+/*fine footer*/
