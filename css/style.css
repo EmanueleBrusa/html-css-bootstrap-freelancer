@@ -23,4 +23,15 @@
     background-color: white;
     height: 1200px;
 }
-.black
+.black{
+    background-color: black;
+    height: calc(100% / 6 - 20px);
+}
+.second-row{
+    background-color: rgb(26,188,156);
+    height: 300px;
+}
+.yellow{
+    background-color: yellow;
+    height: 80%;
+}
