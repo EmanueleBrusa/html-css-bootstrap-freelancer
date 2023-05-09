@@ -4,23 +4,24 @@
     box-sizing: border-box;
 }
 /*inizio header*/
-.blue{
+header{
     background-color: rgb(44,62,80);
     height: 100px;
 }
 .red{
     background-color: red;
-    height: 50%;
+    height: 100px;
 }
 /*fine header*/
 /*inizio main*/
-.first-row{
+.jumbotron{
     background-color: rgb(26,188,156);
-    height: 400px;
+    height: 450px;
 }
 .first-col{
     background-color: blueviolet;
-    height: 80%;
+    height: 400px;
+    margin: 30px;
 }
 .white{
     background-color: white;
