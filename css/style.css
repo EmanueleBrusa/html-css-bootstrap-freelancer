@@ -1,17 +1,151 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+/*inizio utilities*/
+.blu-background{
+    background-color: #2C3E50;
+}
+
+.lightblu-background{
+    background-color: #3A546D;
+}
+
+.green-backgroud{
+   background-color: #1ABC9C;
+}
+
+.green-color{
+    color: #1ABC9C;
+}
+
+.black{
+    background-color: #2C3E50;
+}
+
+.color-balck{
+    color: #2C3E50;
+}
+
+.white{
+    background-color: #fff;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.color-white{
+    color: #fff;
+}
+
+.padding-bottom{
+    padding-bottom: 50px;
+}
+
+input, textarea:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #2C3E50;
+    opacity: 1;
+}
+
+
+.line-star{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.line{
+    width: 70px;
+    height: 5px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.none{
+    display: none;
+}
+
+
+.fa-star{
+    font-size: 1.5rem;
+}
+
+.grey-background{
+    background-color: #2C3E50;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+li > a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+li:hover a{
+    color: #fff;
+}
+
+img{
+    width: 100%;
+}
+
+.container-small{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.button{
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+/*fine utilities*/
 /*inizio header*/
-header{
-    background-color: rgb(44,62,80);
-    height: 100px;
+.col-6-header-content{
+    margin: 25px 0px;
 }
-.red{
-    background-color: red;
-    height: 100px;
+
+.col-6-header-content > h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
 }
+/* phone */
+.hamburger{
+    color: #888888;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hamburger-content{
+    border: 1px solid #888888;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+/* desktop*/
+.tablet > li{
+    margin: 0px 10px;
+}
+
 /*fine header*/
 /*inizio main*/
 .jumbotron{
