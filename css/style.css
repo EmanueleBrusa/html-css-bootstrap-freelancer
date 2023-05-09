@@ -16,18 +16,18 @@ header{
 /*inizio main*/
 .jumbotron{
     background-color: rgb(26,188,156);
-    height: 450px;
+    height: 550px;
 }
 .first-col{
     background-color: blueviolet;
     height: 400px;
     margin: 30px;
 }
-.white{
+.portfolio{
     background-color: white;
     height: 1500px;
 }
-.black{
+.content{
     background-color: black;
     height: 100px;
 }
