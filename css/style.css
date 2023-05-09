@@ -147,41 +147,28 @@ img{
 }
 
 /*fine header*/
+
 /*inizio main*/
-.jumbotron{
-    background-color: rgb(26,188,156);
-    height: 550px;
+
+/*inizio jumbotron*/
+.col-12-content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
-.first-col{
-    background-color: blueviolet;
-    height: 400px;
-    margin: 30px;
+
+.img-container{
+    margin: 10px 0px;
+    width: 50%;
 }
-.portfolio{
-    background-color: white;
-    height: 1500px;
+
+.col-12-content > h1{
+    font-weight: 600;
 }
-.content{
-    background-color: black;
-    height: 100px;
-}
-.second-row{
-    background-color: rgb(26,188,156);
-    height: 300px;
-}
-.yellow{
-    background-color: yellow;
-    height: 80%;
-}
-.third-row{
-   background-color: white; 
-   height: 300px;
-}
-.green{
-    background-color: green;
-    height: 80%;
-}
+/*fine jumbotron*/
+
 /*fine main*/
+
 /*inizio footer*/
 .darkslaghtergray{
     background-color: rgb(58,84,109);
