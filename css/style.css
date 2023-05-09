@@ -198,14 +198,105 @@ img{
 /*fine sezione about*/
 
 /*inizio sezione contatc me*/
+.contact-us{
+    text-align: left;
+}
 
+.container-small > span{
+    color: #425161;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+input[type=text], textarea {
+    border: none;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 10px;
+    width: 100%;
+}
+
+.send-form{
+    background-color: #1ABC9C;
+    border: none;
+    color: #fff;
+    margin: 20px 0px;
+}
 /*fine sezione contact me*/
 
 /*fine main*/
 
 /*inizio footer*/
-.darkslaghtergray{
-    background-color: rgb(58,84,109);
-    height: 300px;
+.col-12-content > h6{
+    margin-top: 35px;
+}
+
+.circle{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.fa-copyright{
+    font-size: 0.8rem;
+}
+
+.copyright{
+    margin: 40px;
 }
 /*fine footer*/
+
+/*media query*/
+@media screen and (min-width: 768px) {
+    .hamburger{
+        display: none;
+    }
+
+    .block{
+        display: block;
+    }
+    
+    .tablet{
+        justify-content: flex-end;
+    }
+
+    .img-container{
+        width: 25%;
+    }
+
+    .col-12-content > h4 {
+        margin-bottom: 20px;
+        margin-top: 40px;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    
+    .col-12-content{
+        text-align: center;
+    }
+
+    .container-small{
+        max-width: 65%;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .img-container{
+        width: 15%;
+    }
+
+    .line{
+        width: 120px;
+        height: 3px;
+    }
+
+    .circle{
+        padding: 5px;
+    }
+}
+
