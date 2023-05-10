@@ -117,6 +117,20 @@ img{
 
 /*fine utilities*/
 /*inizio header*/
+.nav-item{
+    padding: 10px 0px;
+}
+.navbar a:hover{
+    color: gray;
+}
+.navbar-toggler-icon{
+    filter: invert(100%);
+}
+.navbar a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600px;
+}
 .col-6-header-content{
     margin: 25px 0px;
 }
