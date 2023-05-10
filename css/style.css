@@ -131,18 +131,6 @@ img{
     color: white;
     font-weight: 600px;
 }
-.col-6-header-content{
-    margin: 25px 0px;
-}
-
-.col-6-header-content > h2{
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: 700;
-    display: flex;
-    justify-content: flex-start;
-}
 /* phone */
 .hamburger{
     color: #888888;
