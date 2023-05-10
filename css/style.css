@@ -131,22 +131,6 @@ img{
     color: white;
     font-weight: 600px;
 }
-/* phone */
-.hamburger{
-    color: #888888;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.hamburger-content{
-    border: 1px solid #888888;
-    padding: 3px 8px;
-    border-radius: 3px;
-}
-/* desktop*/
-.tablet > li{
-    margin: 0px 10px;
-}
 
 /*fine header*/
 
